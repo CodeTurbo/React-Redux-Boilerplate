@@ -1,0 +1,16 @@
+import React, { Component } from 'react';
+import Router from '../config/router';
+import {Provider} from 'react-redux';
+import store from '../store';
+
+class SignUpContainer extends Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <Router/>
+      </Provider>
+    );
+  }
+}
+
+export default SignUpContainer;

@@ -1,0 +1,39 @@
+body{
+    background-color: #e9e9e9;
+}
+
+.sgn-pnl{
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    width: 25%;
+    margin: auto;
+    margin-top: 15%;
+    box-shadow: 5px 5px 15px #636262;
+    border-radius: 5px;
+}
+
+.sgn-active{
+    font-size:32px;
+    color: #363636;
+    text-decoration: underline;
+}
+
+.sgn-idle{
+    font-size:28px;
+    color: #9e9e9e;
+}
+
+.mar-up-down{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-group-text{
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.load{
+    margin: 13% 44%;
+}
